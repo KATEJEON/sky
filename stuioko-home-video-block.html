@@ -1,0 +1,29 @@
+<div style="width:100%;float:left;" class="main-video-container";>
+      <div class="video_player" style="width:60%;float:right;">
+            <video style="float:right;"id="main_video" preload="none" autoplay="" loop="" muted="" playsinline="" height="100%" style="height: auto;">
+            <source id="video-mp4" src="https://www.shopstoria.com/media/wysiwyg/video/Storia_clothing-1min_1.mp4" type="video/mp4">
+            </video>
+          <script type="text/javascript">
+              $j(document).ready(function () {
+                  var window_height = $j(window).height();
+                  $j('#main_video').css('height', window_height);
+
+                  var test = $j('.video_banner');
+                  if(test.length > 0) {
+                      $j('#main_video').css('height', 'auto');
+                  }
+              });
+          </script>
+      </div>
+
+      <div style="float:left;width:40%;" class="video-info">
+            <div class="" style="padding-top:calc(50% - 125px);">
+              <div class="video-text">
+              <div class="video-sub" style="font-size:1rem"><h5>Let's celebrate</h5></div>
+              <div class="video-title" style="font-size:1.8rem"><h1>Fall 2019</h1></div>
+              <div class="see-more-video" style="font-size:1rem;padding-top:20px;"><a href="/index.php?_sec_=brand"><p>See More</p></a></div>
+              </div>
+            </div>
+
+      </div>
+</div>

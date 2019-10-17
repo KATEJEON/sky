@@ -1,0 +1,65 @@
+/*Registration Form 2 Colums*/
+.register_left {
+  width:50%;
+  float:left;
+  padding :20px;
+}
+.register_right {
+  width:50%;
+  float:left;
+  padding :20px;
+}
+@media only screen and (max-width: 760px) {
+  .register_left {
+  width:100%;
+  float:left;
+  padding :20px;
+  }
+  .register_right {
+  width:100%;
+  float:left;
+  padding :20px;
+  }
+}
+
+/*Product Detail Order Table*/
+.ot_total {
+  font-weight:bold;
+  font-size:14px;
+}
+.custom-input-qty {
+  font-weight:bold;
+}
+.ot_btn_all {
+  text-align: right;
+}
+.option .price {
+  text-align:center !important;
+}
+
+/*Remove Product Description Tab Button*/
+.product-tabs #tabs {
+  display:none;
+}
+.product-tabs #tabs .tabs-content .tab-pane {
+  padding-top:0px !important;
+}
+
+/*Remove Instagram Title*/
+.module-instagram .box-heading {
+  display:none;
+}
+
+/*Remove PO Label*/
+.label-preorder {
+  display:none !important;
+}
+
+.carousel-268 {
+  padding-top: 20px;
+}
+
+
+.journal-carousel .product-grid-item .price {
+    display: none;
+}
